@@ -1,11 +1,11 @@
 import styles from '../styles/Section.module.css'
 
-export default function Section({title, tool, description, icon}){
+export default function Section({title, tool, description, icon, section}){
     return(
         <>
-            <div className={styles.container}>
+            <div className={styles.container} id={section}>
                 <div className={styles.content}>
-                    <div className={styles.titleContainer}>
+                    <div className={styles.titleContainer} >
                         <img className={styles.titleIcon} src={icon}/>
                         <p className={styles.title}>{title}</p>
                     </div>

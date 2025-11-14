@@ -12,7 +12,9 @@ export default function App() {
     <>
       <Header />
       <main style={{marginTop: "150px"}}>
-        <Section title={'Matemática'}
+        <Section
+        title={'Matemática'}
+
         tool={[
           'Calculadora de juros simples e composto',
           'Error occured in maintence',
@@ -30,6 +32,9 @@ export default function App() {
           ]} 
           
           icon={[mathIcon]}
+
+          section={'mathSection'}
+        
           />
 
           <Section title={'Downloaders'}
@@ -42,6 +47,9 @@ export default function App() {
           ]} 
           
           icon={[downloadIcon]}
+
+          section={'downloadSection'}
+
           />
 
           <Section title={'Converores'}
@@ -52,6 +60,8 @@ export default function App() {
         description={[
           'Converte ai mn :)'
           ]} 
+
+        section={'convertSection'}
           
           icon={[convertIcon]}
           />
@@ -66,6 +76,8 @@ export default function App() {
           ]} 
           
           icon={[moreIcon]}
+
+          section={'moreSection'}
           />
         </main>
         <Footer />

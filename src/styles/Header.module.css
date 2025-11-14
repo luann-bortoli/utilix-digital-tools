@@ -13,14 +13,21 @@
 
     background-color: var(--p-bg);
 
-    img{
-        height: 26px;
-    }
+    .logoContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    .logoTitle{
-        font-size: 32px;
-        font-weight: bolder;
-        color: var(--primary)
+            img{
+            height: 26px;
+        }
+
+        .logoTitle{
+            font-size: 32px;
+            font-weight: bolder;
+            color: var(--primary);
+            text-decoration: none;
+        }
     }
 }
 

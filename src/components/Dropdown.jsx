@@ -1,8 +1,9 @@
 import styles from '../styles/Dropdown.module.css'
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 import arrow from '../assets/arrow.svg'
 
-export default function Dropdown({title, options, href}){
+export default function Dropdown({title, options, linkTo}){
 
     const [visible, setVisible] = useState(false)
 
@@ -20,7 +21,7 @@ export default function Dropdown({title, options, href}){
                     {visible &&(
                         options.map((option, index) => (
                             <div key={index} className={styles.options}>
-                                <a href={href}>{option}</a>
+                                <Link to={linkTo[index]}>{option}</Link>
                             </div>
                         ))
                     )}

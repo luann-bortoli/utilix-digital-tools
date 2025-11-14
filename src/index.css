@@ -2,12 +2,15 @@
 
 :root {
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 
   --p-black: #12100E;
   --p-white: #FBF9FF;
   --p-bg: #724CF9;
+  --p-bg-d: #6339F9;
   --primary: #FDE12D;
+  --error: #E15554;
 
   --off-white: #F1EBFF;
   --off-white-2: #E2D6FF;
@@ -18,4 +21,8 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: #E7DEFF;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
 }

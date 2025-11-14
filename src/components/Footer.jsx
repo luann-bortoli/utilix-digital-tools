@@ -15,12 +15,12 @@ export default function Footer(){
                         <p>Utilix</p>
                     </div>
                     <div className={styles.sections}>
-                        <p>Sessões</p>
+                        <p>Seções</p>
                         <ul>
-                            <li><a href="">Matemática</a></li>
-                            <li><a href="">Downloaders</a></li>
-                            <li><a href="">Conversores</a></li>
-                            <li><a href="">Diversos</a></li>
+                            <li><a href="#mathSection">Matemática</a></li>
+                            <li><a href="#downloadSection">Downloaders</a></li>
+                            <li><a href="#convertSection">Conversores</a></li>
+                            <li><a href="#moreSection">Diversos</a></li>
                         </ul>
                     </div>
                     <div className={styles.sections}>
