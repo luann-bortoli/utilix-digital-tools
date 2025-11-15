@@ -27,7 +27,7 @@ export default function App() {
 
           section={'mathSection'}
 
-          link={"/calculadora-de-juros"}
+          link={["/calculadora-de-juros"]}
         
           />
 
@@ -44,9 +44,11 @@ export default function App() {
 
           section={'downloadSection'}
 
+          link={["/calculadora-de-juros"]}
+
           />
 
-          <Section title={'Converores'}
+          <Section title={'Conversores'}
         tool={[
           'Converter arquivo SVG para PNG'
         ]}
@@ -58,22 +60,25 @@ export default function App() {
         section={'convertSection'}
           
           icon={[convertIcon]}
+
+          link={["/calculadora-de-juros"]}
           />
 
           <Section title={'Diversos'}
         tool={[
-          'Contador de caracteres'
+          'Contador de caracteres', 'Gerador de senha segura'
         ]}
 
         description={[
-          'Ferramenta rápida para checar comprimento e número de palavras de textos'
+          'Ferramenta rápida para checar comprimento e número de palavras de textos',
+          'Proteja suas contas com senhas complexas geradas instantaneamente'
           ]} 
           
           icon={[moreIcon]}
 
           section={'moreSection'}
 
-          link={'/contador-de-caracteres'}
+          link={['/contador-de-caracteres', '/gerador-de-senha']}
           />
       </main>
         <Footer />
