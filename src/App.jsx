@@ -16,11 +16,19 @@ export default function App() {
         title={'Matemática'}
 
         tool={[
-          'Calculadora de juros'
+          'Calculadora de juros',
+          'Placeholder',
+          'Placeholder',
+          'Placeholder',
+          'Placeholder',
         ]}
 
         description={[
           'Ideal para simular investimentos, financiamentos e comparações financeiras em segundos.',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
           ]} 
           
           icon={[mathIcon]}
@@ -33,11 +41,15 @@ export default function App() {
 
           <Section title={'Downloaders'}
         tool={[
-          'Baixador de videos do YouTube'
+          'Baixador de videos do YouTube',
+          'Placeholder',
+          'Placeholder',
         ]}
 
         description={[
-          'Um baixador de videos do youtube (quem diria)'
+          'Um baixador de videos do youtube (quem diria)',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
           ]} 
           
           icon={[downloadIcon]}
@@ -50,11 +62,13 @@ export default function App() {
 
           <Section title={'Conversores'}
         tool={[
-          'Converter arquivo SVG para PNG'
+          'Converter arquivo SVG para PNG',
+          'Placeholder'
         ]}
 
         description={[
-          'Converte ai mn :)'
+          'Converte ai mn :)',
+          'Ideal para fazer o site parecer ter mais conteúdo'
           ]} 
 
         section={'convertSection'}
@@ -66,12 +80,21 @@ export default function App() {
 
           <Section title={'Diversos'}
         tool={[
-          'Contador de caracteres', 'Gerador de senha segura'
+          'Contador de caracteres',
+          'Gerador de senha segura',
+          'Placeholder',
+          'Placeholder',
+          'Placeholder',
+          'Placeholder',
         ]}
 
         description={[
           'Ferramenta rápida para checar comprimento e número de palavras de textos',
-          'Proteja suas contas com senhas complexas geradas instantaneamente'
+          'Proteja suas contas com senhas complexas geradas instantaneamente',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
+          'Ideal para fazer o site parecer ter mais conteúdo',
           ]} 
           
           icon={[moreIcon]}
