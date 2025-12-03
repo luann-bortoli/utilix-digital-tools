@@ -12,19 +12,11 @@ O objetivo do projeto é centralizar utilitários como calculadoras, conversores
   - Contador de caracteres.
 
 # Tecnologias Utilizadas
-- React.js
-- Vite
-- JavaScript
----
-# Como Rodar o Projeto
-  ## Clonar o repositório
-  git clone https://github.com/luann-bortoli/utilix-digital-tools
+  - React.js.
+  - Vite.
+  - JavaScript.
 
-  ## Entrar na pasta
-  cd utilix
-
-  ## Instalar dependências
-  npm install
-
-  ## Rodar localmente
-  npm run dev
+# Futuras funcionalidades
+  - Dark mode.
+  - Responsividade e suporte mobile.
+  - Novas ferramentas.
