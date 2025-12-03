@@ -2,8 +2,6 @@ import styles from '../styles/Footer.module.css'
 import logo from '../assets/logo.svg'
 import linkedinIcon from '../assets/linkedin.svg'
 import githubIcon from '../assets/github.svg'
-import twitterIcon from '../assets/twitter.svg'
-import instagramIcon from '../assets/instagram.svg'
 
 export default function Footer(){
     return(
@@ -17,12 +15,23 @@ export default function Footer(){
                     <div className={styles.sections}>
                         <p>Seções</p>
                         <ul>
-                            <li><a href="#mathSection">Matemática</a></li>
-                            <li><a href="#downloadSection">Downloaders</a></li>
-                            <li><a href="#convertSection">Conversores</a></li>
-                            <li><a href="#moreSection">Diversos</a></li>
+                            <li><a href="/#mathSection">Matemática</a></li>
+                            <li><a href="/#downloadSection">Downloaders</a></li>
+                            <li><a href="/#convertSection">Conversores</a></li>
+                            <li><a href="/#moreSection">Diversos</a></li>
                         </ul>
                     </div>
+
+                    <div className={styles.sections}>
+                        <p>Ferramentas</p>
+                        <ul>
+                            <li><a href="/contador-de-caracteres">Contador de caracteres</a></li>
+                            <li><a href="/gerador-de-senha">Gerador de senha segura</a></li>
+                            <li><a href="/calculadora-de-juros">Calculadora de juros simples</a></li>
+                            <li><a href="/calculadora-de-juros">Calculadora de juros composto</a></li>
+                        </ul>
+                    </div>
+
                     <div className={styles.sections}>
                         <p className={styles.socialP}>Social</p>
                             <a href="https://www.linkedin.com/in/luann-de-bortoli-354bba34b/"><img src={linkedinIcon} alt="" /></a>

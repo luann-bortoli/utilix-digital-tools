@@ -41,13 +41,13 @@ export default function App() {
 
           <Section title={'Downloaders'}
         tool={[
-          'Baixador de videos do YouTube',
+          'Placeholder',
           'Placeholder',
           'Placeholder',
         ]}
 
         description={[
-          'Um baixador de videos do youtube (quem diria)',
+          'Ideal para fazer o site parecer ter mais conteúdo',
           'Ideal para fazer o site parecer ter mais conteúdo',
           'Ideal para fazer o site parecer ter mais conteúdo',
           ]} 
@@ -56,18 +56,18 @@ export default function App() {
 
           section={'downloadSection'}
 
-          link={["/calculadora-de-juros"]}
+          link={["/"]}
 
           />
 
           <Section title={'Conversores'}
         tool={[
-          'Converter arquivo SVG para PNG',
+          'Placeholder',
           'Placeholder'
         ]}
 
         description={[
-          'Converte ai mn :)',
+          'Ideal para fazer o site parecer ter mais conteúdo',
           'Ideal para fazer o site parecer ter mais conteúdo'
           ]} 
 
@@ -75,7 +75,7 @@ export default function App() {
           
           icon={[convertIcon]}
 
-          link={["/calculadora-de-juros"]}
+          link={["/"]}
           />
 
           <Section title={'Diversos'}

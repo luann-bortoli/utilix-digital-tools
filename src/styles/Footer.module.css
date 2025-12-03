@@ -32,38 +32,40 @@
         .sections{
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: start;
             justify-content: center;
 
             .socialP{
                 margin-top: -38px;
-                margin-left: 3px;
             }
 
             img{
                 height: 20px;
-                margin-left: -15px;
                 margin-top: 10px;
             }
 
             p{
                 font-weight: 600;
                 color: var(--primary);
-                margin-left: -10px;
+                margin: 0;
+                padding: 0;
             }
 
-            li{
-                display: flex;
-                margin-bottom: 5px;
-                margin-left: -15px;
-                
-                a{
-                    text-decoration: none;
-                    color: var(--primary);
-                    font-size: 14px;
+            ul{
+                padding: 0;
 
-                    &:hover{
-                        text-decoration: underline;
+                li{
+                    display: flex;
+                    margin: 0 0 5px 0;
+                    
+                    a{
+                        text-decoration: none;
+                        color: var(--primary);
+                        font-size: 14px;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
@@ -76,6 +78,7 @@
         border: none;
         background-color: var(--primary);
         border-top: 1px dashed var(--p-bg);
+        margin: 20px 0;
     }
 
     p{
