@@ -10,6 +10,7 @@ O objetivo do projeto é centralizar utilitários como calculadoras, conversores
   - Calculadora de juros composto.
   - Gerador de senhas seguras.
   - Contador de caracteres.
+  - Testador de força de senhas.
 
 # Tecnologias Utilizadas
   - React.js.
